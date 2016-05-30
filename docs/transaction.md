@@ -13,10 +13,10 @@ The most granular entity in the API, describes a movement of funds.
 
 ##Transaction-types
 ###Cancel
-A cancel transaction, this releases all available [reseved](#authorize) funds.
+A cancel transaction, this releases all available [reserved](#authorize) funds.
 
 ### Capture
-A capture transaction, it captures funds from [reseved](#authorize).
+A capture transaction, it captures funds from [reserved](#authorize).
 
 ### Credit
 A credit transaction, it credits previously  [captured](#capture), paying them back to the consumer.
